@@ -1,0 +1,6 @@
+{
+  "name": "Planeando mi futuro sin miedo",
+  "description": "Guía completa y cariñosa para parejas y jóvenes que se independizan, administran su dinero y construyen su futuro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

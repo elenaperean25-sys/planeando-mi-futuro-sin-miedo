@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9D5FF" />
+      <stop offset="50%" stop-color="#F5F3FF" />
+      <stop offset="100%" stop-color="#D1FAE5" />
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#FB7185" />
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+
+  <!-- Soft glowing halo -->
+  <circle cx="256" cy="256" r="180" fill="#FFFFFF" opacity="0.6" />
+
+  <!-- Home base -->
+  <path d="M150 250 L256 160 L362 250 V370 C362 384 350 396 336 396 H176 C162 396 150 384 150 370 Z" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="8" stroke-linejoin="round" />
+
+  <!-- Roof -->
+  <path d="M130 260 L256 150 L382 260" fill="none" stroke="url(#roofGrad)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Door / Window Heart -->
+  <path d="M256 295 C256 280 240 268 226 268 C208 268 198 284 198 300 C198 326 232 350 256 366 C280 350 314 326 314 300 C314 284 304 268 286 268 C272 268 256 280 256 295 Z" fill="url(#heartGrad)" />
+
+  <!-- Little plant sprout representing growing future -->
+  <path d="M375 320 Q390 280 410 270 Q415 295 385 325 Z" fill="url(#leafGrad)" />
+  <path d="M375 320 Q360 290 350 285 Q355 310 375 320 Z" fill="#10B981" />
+  <path d="M375 340 L375 315" fill="none" stroke="#059669" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Coin / Savings star spark -->
+  <circle cx="140" cy="180" r="26" fill="#FBBF24" />
+  <circle cx="140" cy="180" r="18" fill="#FDE68A" />
+  <text x="140" y="187" font-size="20" font-family="sans-serif" font-weight="bold" fill="#D97706" text-anchor="middle">$</text>
+  
+  <circle cx="370" cy="170" r="10" fill="#FCD34D" opacity="0.8" />
+  <circle cx="110" cy="270" r="7" fill="#A78BFA" opacity="0.6" />
+</svg>
